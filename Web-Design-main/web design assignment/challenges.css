@@ -1,0 +1,93 @@
+body {
+    background-color: #fff5ee;
+}
+
+.pageheader {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 20px 0px;
+}
+
+.pageheader > img {
+    width: 60px;
+    height: 60px;
+}
+
+h1 {
+    border: 3px dashed black;
+}
+.subheader {
+    padding-bottom: 10px;
+}
+
+.firstchallenge {
+    background-image: url("walking_challenge.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.secondchallenge {
+    background-image: url("push_up_challenge.jpg ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.challenge_link > img {
+    width: 100%;
+}
+
+.challenge_description {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px 20px;
+    background-color: #eefff8;
+    opacity: 1;
+    border-radius: 100%;
+    color: black;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.secondchallenge {
+    color: #FF0000;
+}
+.challenge_name{
+    display: flex;
+    display: none;
+    flex-flow: row wrap;
+    max-width: 500px;
+    padding-top: 20px;
+}
+
+.challenge_name > strong {
+    text-shadow: 1px 2px #eefff8;
+    font-style: italic;
+}
+
+.challenge_card > div {
+    height: 350px;
+    display: flex;
+    margin: auto;
+    height: 350px;
+}
+#challenge_detail1 {
+    margin-left: 20px;
+}
+
+#challenge_detail2 {
+    margin-left: 500px;
+}
+#challenge_description1 {
+    margin: 110px 0px 125px 30px;
+}
+
+#challenge_description2 {
+    margin: 110px 0px 125px 600px;
+}
+.challenge_description:hover+ .challenge_name{
+    display: flex;
+}

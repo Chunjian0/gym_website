@@ -1,0 +1,9 @@
+main > img {
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position:10%;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    
+}

@@ -1,0 +1,63 @@
+[
+    {
+        "id": 0,
+        "image": "dumbbell.png",
+        "name": "Dumbbell (4kg)",
+        "price": 24.60
+    },
+    {
+        "id": 1,
+        "image": "treadmill.png",
+        "name": "Treadmill",
+        "price":1488.00
+    },
+    {
+        "id": 2,
+        "image": "skipping_role.png",
+        "name": "Skipping rope",
+        "price": 3.90
+    },
+    {
+        "id": 3,
+        "image": "Sit_up.png",
+        "name": "Sit-Up Benches",
+        "price": 99.00
+    },
+    {
+        "id": 4,
+        "image": "yogamats.png",
+        "name": "Yoga mats",
+        "price": 10.50
+ },
+ {
+    "id": 5,
+    "image": "多功能家用健身器材.webp",
+    "name": "Home Gym",
+    "price": 1899.00
+ },
+ {
+    "id": 6,
+     "image": "yoga_band.png",
+     "name": "Yoga Band",
+     "price": 38.90
+ },
+ {
+    "id": 7,
+     "image": "massage_stick.png",
+     "name": "Massage_stick",
+     "price": 8.55
+ },
+ {
+    "id": 8,
+     "image": "carnivormass.jpg",
+     "name": "Carnivor Mass",
+     "price": 120.00
+ },
+ {
+    "id": 9,
+     "image": "download.jpeg",
+     "name": "Organic Protein",
+     "price": 120.00
+ }
+
+]

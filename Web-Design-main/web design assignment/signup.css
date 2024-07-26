@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    background-image: url(signup.png);
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+form {
+    margin: auto;
+    padding: 20px;
+    width: 500px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.7;
+    color: black;
+    background-color: bisque;
+    margin-top: 40px;
+}
+
+input[type="password"] {
+    padding: 5px;
+    width: 80%;
+    font-size: 20px;
+}
+
+input[type="textbox"] {
+    margin-left: auto;
+}
+
+.details h3 {
+    color: black;
+}

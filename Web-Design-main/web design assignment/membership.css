@@ -1,0 +1,72 @@
+body>h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.flexRow {
+    display: flex;
+    font-size: 50px;
+    text-align: center;
+    height: 800px;
+    flex-direction: row;
+    line-height: 2;
+    margin-bottom: 30px;
+}
+
+body>.flexRow div {
+    background-color: rgba(220, 0, 0, 1);
+    padding: 10px;
+    flex: 50%;
+    border: 1px solid black;
+}
+
+body>.flexRow>div .membershipText {
+    font-size: 30px;
+    height: 100px;
+    background-color: white;
+    margin: -11px;
+    text-align: center;
+}
+
+.price {
+    color: #ffff;
+}
+
+body>.flexRow>div div>h1 {
+    font-size: 30px;
+}
+
+body>.flexRow>div div>p {
+    font-size: 17px;
+    color: #ffff;
+    margin-bottom: 0;
+
+}
+
+body>.flexRow>div div>img {
+    width: 60px;
+    height: 60px;
+
+}
+
+body>.flexRow div h6 {
+    font-size: 20px;
+    color: #ffff;
+}
+
+.value {
+    width: 100%;
+    color: red !important;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    background-color: #ffff;
+    color: #dc143c;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    margin-top: 20px;
+}

@@ -1,0 +1,47 @@
+.box{
+    text-align: center;
+}
+.title{
+   font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    justify-content: center;
+    align-items:center;
+    min-height:100vh;
+    background-color:black;
+    color:white;
+}
+
+.trainer img{
+    max-width: 380px;
+    float:right;
+    border:3px solid #fff;
+    border-radius: 10px;
+    margin-left:15px;
+}
+.trainer h1{
+    font-size:90px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:orange;
+}
+.trainer h2{
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.trainer h3{
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.trainer h4{
+    font-size:20px;
+    font-family:'Courier New', Courier, monospace;
+}
+.trainer a{
+    border:1px solid orange;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+padding:10px;
+background-color:orange;
+
+}

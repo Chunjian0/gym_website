@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="button.js"></script>
+    <title>Active life hub</title>
+    <link rel="icon" type="image/x-icon" href="logo 1.jpeg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="challenges.css" />
+    <script async>
+        function participateFunction(){
+            alert("You are pleased to pay a visit to our physical counter");
+        }
+    </script>
+</head>
+<header>
+    <nav>
+        <div class="main">
+            <div class="logo">
+                <img src="Active Life Hub.png" usemap="#home">
+                <map name="home">
+                    <area alt="" href="home.html" coords="49,1,153,101" shape="rect">
+                </map>
+            </div>
+        </div>
+
+        <ul>
+            <li class="currentPage"><a href="home.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li> <a href="timetable.html">Timetable</a></li>
+            <li><a href="membership.html">Membership</a></li>
+            <a id="map-btn" href="map.html"><img src="map2.png" alt=""></a>
+            <a id="navicon" href="#"><img src="navicon3.png" alt="" /></a>
+        </ul>
+    </nav>
+</header>
+<body>
+    <div class="pageheader">
+        <img src="fighting.jpg" alt="" />&nbsp;
+        <img src="fighting.jpg" alt="" />&nbsp;
+        <h1>Are you dare to go for these Challenges?!</h1>&nbsp;
+        <img src="fighting.jpg" alt="" />&nbsp;
+        <img src="fighting.jpg" alt="" />&nbsp;
+    </div>
+    <h2 class="subheader">Step Up Your Game Challenge: </h2>
+    <div class="challenge_card">
+        <div class="firstchallenge">
+            <p class="challenge_description" id="challenge_description1"><strong>1. Let's See How Much Calories You Can Burnt!!</strong></p>
+            <article class="challenge_name" id="challenge_detail1">
+                10 km is not an easy distance to cover, and it will take some serious dedication and commitment to complete this challenge successfully.<br/><br/><br/>
+                <strong>Noted: You will be awarded a participation reward once you have participated and exactly attended when the challenge starts!<br/>
+                Please do not forget to claim your prize after you have your winning place in the challenge within the challenge day; otherwise, your prize will be given away to someone who has taken places behind you!!</strong>
+            </article>
+        </div>
+        <br/>
+        <div class="secondchallenge">
+            <p class="challenge_description" id="challenge_description2"><strong><a>2. Let's Get Muscle More Fits!!</a></strong></p>
+            <article class="challenge_name" id="challenge_detail2">
+                Push up may be easy for you huh? Let's challenge your limits then!!<br/>
+                Hurry to pick up this challenge to show how great, powerful and how dare you are, Challenger!!                <br/><br/><br/>
+                <strong>Noted: You will be awarded a participation reward once you have participated and exactly attended when the challenge starts!<br/>
+                Please do not forget to claim your prize after you have your winning place in the challenge within the challenge day; otherwise, your prize will be given away to someone who has taken places behind you!!</strong>
+            </article>
+        </div>
+        <br/>
+    </div>
+</body>
+
+<footer>
+    <div class="footer-container">
+        <div class="logo">
+            <img src="Active Life Hub.png" alt="">
+        </div>
+        <div class="nav-section">
+            <h2>Quick Link</h2>
+        </div>
+            <div class="footer-col">
+                <ul>
+                    <hr>
+                    <li><a href="membership.html">Membership</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li> <a href="timetable.html">Timetable</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <ul>
+                    <li><a href="signup.html">Join Us</a></li>
+                    <li><a href="map.html">Maps</a></li>
+                    <li><a href="">Shopping Cart</a></li>
+                </ul>
+            </div>
+            <form class="subcribe-form">
+                <div>
+                    <input type="text" placeholder="Your Email Address" />
+                    <br>
+                    <a href="" class="ctn">Subcribe Us</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="social">
+        <a href="https://www.facebook.com/" target="_blank"><img src="facebook_icon.png" alt="meta" /></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="instagram_icon.png" alt="instagram" /></a>
+        <a href="https://www.youtube.com/" target="_blank"><img src="youtube_icon.png" alt="youtube" /></a>
+        <a href="https://twitter.com/" target="_blank"><img src="twitter_icon.png" alt="twitter" /></a>
+    </div>
+    <div class="copyright">&copy; 2023 My Gym. All rights reserved.</div>
+
+</footer>
+<button onclick="topFunction()" id="top-btn" title="Go to top"><img src="scroll_to_top.png" alt="Top"></button>
+<script>
+    // Get the button
+    let mybutton = document.getElementById("top-btn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    } 
+</script>
+</html>

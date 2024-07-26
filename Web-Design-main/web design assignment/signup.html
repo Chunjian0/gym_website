@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="button.js"></script>
+    <title>Active Life Hub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="personaltraining.css">
+    <link rel="stylesheet" href="page.css">
+    <link href="signup.css" rel="stylesheet" />
+
+</head>
+<header>
+
+    <body>
+        <style>
+            #home {
+                background-color: white !important;
+            }
+        </style>
+        <nav>
+            <div class="main">
+                <div class="logo">
+                    <img src="Active Life Hub.png" usemap="#home">
+                    <map name="home">
+                        <area alt=""href="home.html" coords="49,1,153,101" shape="rect">
+                    </map>
+                </div>
+            </div>
+
+            <ul>
+                <li class="menu"><a href="home.html"></i>Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li> <a href="timetable.html">Timetable</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                <li><a href="home.html">Back</a></li>
+                <a id="map-btn" href="map.html"><img src="map2.png" alt=""></a>
+                <a id="navicon" href="#"><img src="navicon3.png" alt="" /></a>
+            </ul>
+        </nav>
+</header>
+
+<form action="home.html">
+    <div class="details">
+        <h3>PLEASE ENTER YOUR DETAILS HERE</h3>
+        <label>Name:</label>
+        <input type="textbox" placeholder="first name" name="firstname" required />
+        <input type="textbox" placeholder="last name" name="lastname" required /><br><br />
+        <label>Phone Number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="tel" placeholder="+60123456789" name="phonenumber" required /><br><br />
+        <label>Your date birth&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="date" name="date" id="date" required><br /><br />
+        <label>Enter your gmail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="textbox" name="gmail" id="gmail" placeholder="example@gmail.com" required> <br /><br />
+        <label>Total Member Price(RM):</label>
+        <input type="textbox" name="price" id="price" placeholder="0.00" disabled> <br><br>
+        <input type="submit" name="submit" id="submit">
+       <input type="reset" name="cancel" id="cancel" value="Reset">
+</form>
+</body>
+
+</html>

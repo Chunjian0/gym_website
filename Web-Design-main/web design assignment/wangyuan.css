@@ -1,0 +1,88 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+.selection{
+    height:100vh;
+    justify-content: center;
+    align-items:center;
+}
+.wangyuan{
+    position: relative;
+    width:100%
+}
+video{
+    float:center;
+    width:100%;
+    display:block;
+    height:auto;
+}
+.wy img{
+    float:center;
+    width:100%;
+  display:block;
+  height:auto;
+}
+body{
+    justify-content: center;
+    align-items:center;
+    min-height:100vh;
+    background-color:black;
+    color:white;
+}
+.wangyuan img{
+    max-width: 450px;
+    float:right;
+    border:3px solid #fff;
+    border-radius: 10px;
+    margin-left:15px;
+}
+.wangyuan2 img{
+    max-width: 450px;
+    float:left;
+    border:3px solid #fff;
+    border-radius: 10px;
+    margin-right:15px;
+}
+.experience{
+    font-size:20px;
+    font-family:'Courier New', Courier, monospace;
+}
+.experience h3{
+    text-align: left;
+    color:yellowgreen;
+}
+.experience a{
+    border:1px solid orange;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+padding:10px;
+background-color:orange;
+}
+.wangyuan2 a{
+    text-align: center;
+    border:1px solid orange;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+padding:10px;
+background-color:orange;
+}
+.two h1{
+color:orange;
+text-align: center;
+}
+.two h4{
+    text-align: center;
+    font-size: 16px;
+}
+.two p,a,h3{
+    text-align: right;
+}
+.two h3{
+    color:yellowgreen;
+}

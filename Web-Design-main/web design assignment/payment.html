@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="payment.css">
+    <title>Payment Page</title>
+
+    <script defer>
+        function submitForm(event) {
+            var form = document.querySelector('form');
+
+            // Check if the form is valid
+            if (form.checkValidity()) {
+                var userConfirmed = confirm("Do you confirm your payment information are all good?");
+                if (userConfirmed) {
+                    // Redirect to checkout.html
+                    window.location.href = "loading_payment_page.html";
+                } else {
+                    alert("You can proceed with changes to your payment information.");
+                }
+            }
+
+            // Prevent the default form submission
+            event.preventDefault();
+        }
+    </script>
+
+</head>
+<body>
+
+<div class="container">
+    <form onsubmit="submitForm(event)">
+        <div class="row">
+            <div class="col">
+
+                <h3 class="title">billing address</h3>
+
+                <div class="inputBox">
+                    <span>full name :</span>
+                    <input type="text" placeholder="Matthew Yiong" required>
+                </div>
+                <div class="inputBox">
+                    <span>email :</span>
+                    <input type="email" placeholder="example@example.com">
+                </div>
+                <div class="inputBox">
+                    <span>address :</span>
+                    <input type="text" placeholder="room - street - locality">
+                </div>
+                <div class="inputBox">
+                    <span>city :</span>
+                    <input type="text" placeholder="Petaling Jaya" required>
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>state :</span>
+                        <input type="text" placeholder="Selangor" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>zip code :</span>
+                        <input type="text" placeholder="47300">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col">
+
+                <h3 class="title">payment</h3>
+
+                <div class="inputBox">
+                    <span>cards accepted :</span>
+                    <img src="card_img.png" alt="">
+                </div>
+                <div class="inputBox">
+                    <span>name on card :</span>
+                    <input type="text" placeholder="Mr.Matthew Yiong" required>
+                </div>
+                <div class="inputBox">
+                    <span>credit card number :</span>
+                    <input type="text" placeholder="4123456789012" pattern="^(?:4[0-9]{12}(?:[0-9]{3})?)$" title="Please enter a valid credit card number" required>
+                </div>
+                <div class="inputBox">
+                    <span>exp month :</span>
+                    <input type="text" placeholder="january">
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>exp year :</span>
+                        <input type="number" placeholder="2024">
+                    </div>
+                    <div class="inputBox">
+                        <span>CVV :</span>
+                        <input type="text" placeholder="1234">
+
+                       
+                    </div>
+                </div>
+
+            </div>
+    
+        </div>
+        
+        <input type="submit" value="Proceed to Checkout" class="submit-btn" onclick="if (!document.querySelector('form').checkValidity()) { alert('Please fill in all required fields.');}">
+    </form>
+    
+</div>   
+</body>
+</html>

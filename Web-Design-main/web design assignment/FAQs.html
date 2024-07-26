@@ -1,0 +1,206 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script src="button.js"></script>
+    <title>Active life hub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="FAQ.css">
+
+</head>
+<header>
+
+    <body>
+        <style>
+            #home {
+                background-color: white !important;
+            }
+        </style>
+
+        <nav>
+            <div class="main">
+                <div class="logo">
+                    <img src="Active Life Hub.png" usemap="#home">
+                    <map name="home">
+                        <area alt=""href="home.html" coords="49,1,153,101" shape="rect">
+                    </map>
+                </div>
+            </div>
+
+            <ul>
+                <li class="menu"><a href="home.html"></i>Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li> <a href="timetable.html">Timetable</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                <!-- <a id="cart-btn" href="#"><img src="cart.png" alt=""></a> -->
+                <a id="map-btn" href="map.html"><img src="map2.png" alt=""></a>
+                <a id="navicon" href="#"><img src="navicon3.png" alt="" /></a>
+            </ul>
+        </nav>
+</header>
+<h1>Hi here is the FAQs page</h1>
+
+
+<ul id="facilities">
+    <li>
+        <label for="one">How do I sign up for a membership?<span>&#x3e;</span></label>
+        <input type="radio" name="facilities" id="one" checked>
+        <div class="content">
+            <p>It's simple to sign up! To register online, go to our website and
+                complete the form, or stop by the front desk for help. We are available to
+                assist you in beginning your fitness journey.</p>
+        </div>
+    </li>
+    <li>
+        <label for="two">Can I upgrade from Ordinary Pass to Premium Pass?<span>&#x3e;</span></label>
+        <input type="radio" name="facilities" id="two">
+        <div class="content">
+            <p>Of course! You can upgrade from an Ordinary Pass to a Premium Pass by going to the front desk or
+                getting in touch with our membership services if you start with an Ordinary Pass..</p>
+        </div>
+    </li>
+    <li>
+        <label for="three">What are your operating hours?<span>&#x3e;</span></label>
+        <input type="radio" name="facilities" id="three">
+        <div class="content">
+            <p>Every day of the week, we are open! We are open from [7.AM - 9. AM] on weekends and from [6.AM - 10.AM]
+                on weekdays. We are also accessible on holidays, allowing you to maintain your workout schedule all
+                year round.</p>
+        </div>
+    </li>
+    <li>
+        <label for="four">What types of payment methods are accepted?<span>&#x3e;</span></label>
+        <input type="radio" name="facilities" id="four">
+        <div class="content">
+            <p>We take credit cards, debit cards and among other payment methods. You have the option to
+                conveniently make payments online using our portal or in person.</p>
+        </div>
+    </li>
+    <li>
+        <label for="five">Is there an age limit to use the gym?<span>&#x3e;</span></label>
+        <input type="radio" name="facilities" id="five">
+        <div class="content">
+            <p>To use our facilities, members must be at least 16 years old. We also have age-specific programs
+                available, so everyone can benefit from a personalized exercise regimen.</p>
+        </div>
+    </li>
+    <li>
+        <label for="six">Do you provide daycare services?<span>&#x3e;</span></label>
+        <input type="radio" name="facilities" id="six">
+        <div class="content">
+            <p>Regretfully, we are unable to offer daycare services at this time. Children are welcome as long as
+                they are supervised by their parents, though we do our best to establish a family-friendly atmosphere..
+            </p>
+        </div>
+    </li>
+</ul>
+<div class="right">
+    <form>
+        <div class="faq_form">
+            <div class="faq_name">
+                <div class="firstname">
+                    <label>
+                    FirstName:<br/>
+                    <input type="text" name="firstname" id="firstname" />
+                    </label>
+                </div>
+                <div class="lastname">
+                    <label>
+                        LastName:<br/>
+                        <input type="text" name="lastname" id="lastname" />
+                    </label>
+                </div>
+            </div>
+            <div class="email">
+                <label>
+                    Email:<br/>
+                    <input type="text" name="email" id="email" />
+                </label>
+            </div>
+            <div class="contact">
+                <label>
+                    Contact Number:<br/>
+                    <input type="tel" name="contact" id="contact" />
+                </label>
+            </div>
+            <div class="message">
+                <label>
+                    Your Feedback / Question:<br/>
+                    <input type="text" name="" class="question"/>
+                </label>
+                <div class="submit">
+                    <input type="button" value="Submit" onclick="validate()"/>
+                </div>
+            </div>
+        </div>
+    </form>
+    <br/>
+</body>
+<footer>
+    <div class="footer-container">
+        <div class="logo">
+            <img src="Active Life Hub.png" alt="">
+        </div>
+        <div class="nav-section">
+            <h2>Quick Link</h2>
+        </div>
+            <div class="footer-col">
+                <ul>
+                    <hr>
+                    <li><a href="membership.html">Membership</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li> <a href="timetable.html">Timetable</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+
+        <div class="footer-col">
+            <ul>
+                <li><a href="signup.html">Join Us</a></li>
+                <li><a href="map.html">Maps</a></li>
+                <li><a href="FAQs.html">FAQs</a></li>
+            </ul>
+        </div>
+        <form class="subcribe-form">
+            <div>
+                <input type="text" placeholder="Your Email Address" />
+                <br>
+                <a href="" class="ctn">Subcribe Us</a>
+            </div>
+        </form>
+    </div>
+
+    <div class="social">
+        <a href="https://www.facebook.com/" target="_blank"><img src="facebook_icon.png" alt="meta" /></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="instagram_icon.png" alt="instagram" /></a>
+        <a href="https://www.youtube.com/" target="_blank"><img src="youtube_icon.png" alt="youtube" /></a>
+        <a href="https://twitter.com/" target="_blank"><img src="twitter_icon.png" alt="twitter" /></a>
+    </div>
+    <div class="copyright">&copy; 2023 My Gym. All rights reserved.</div>
+
+</footer>
+<button onclick="topFunction()" id="top-btn" title="Go to top"><img src="scroll_to_top.png" alt="Top"></button>
+<script>
+    // Get the button
+    let mybutton = document.getElementById("top-btn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    } 
+</script>
+</html>
